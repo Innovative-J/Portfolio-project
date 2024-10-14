@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={Playfair.variable}>
         <Header/>
+        <StairTransition/>
         <PageTransition>
           {children}
         </PageTransition>
