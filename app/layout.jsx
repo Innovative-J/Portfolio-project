@@ -3,6 +3,7 @@ import "./globals.css";
 // components
 import Header from "@/components/header";
 import PageTransition from "@/components/PageTransition";
+import StairTransition from "@/components/StairTransition";
 
 const Playfair = Playfair_Display({
   subsets: ["latin"],
