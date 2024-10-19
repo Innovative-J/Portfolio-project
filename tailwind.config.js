@@ -35,6 +35,12 @@ module.exports = {
 				// Hex codes: Sapphire (#2E5266FF), Light Slate Gray (#6E8898FF), Cadet Gray (#9FB1BCFF), and American Silver (#D3D0CBFF)
 			},
   		},
+		dropShadow: {
+			glow: [
+				"0 0px 20px rgba(255, 255, 255, 0.35)",
+				"0 0px 65px rgba(255, 255, 255, 0.2)"
+			]
+		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
