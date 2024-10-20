@@ -52,7 +52,8 @@ const SheetContent = React.forwardRef(({ side = "right", className, children, ..
       {children}
       <SheetPrimitive.Close
         className="absolute right-8 top-8 opacity-none  transition-opacity outline-none">
-        <IoMdClose className="text-3xl text-accent" />
+          {/* button X  */}
+        <IoMdClose className="text-3xl primary-hover:" />
         <span className="sr-only">Close</span>
       </SheetPrimitive.Close>
     </SheetPrimitive.Content>
