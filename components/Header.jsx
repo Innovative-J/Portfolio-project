@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 // components 
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
     return (
@@ -23,6 +24,7 @@ const Header = () => {
         <Link href="/contact">
         <Button >Hire me</Button>
         </Link>
+        <ThemeToggle />
         </div>
 
 
